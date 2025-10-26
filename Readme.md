@@ -35,13 +35,13 @@ The module uses **kprobes**, a powerful Linux kernel debugging mechanism, to int
 
 ## Features
 
-- ✅ **Real-time Process Monitoring**: Captures process exits as they happen
-- ✅ **Zero Kernel Modification**: Uses kprobes for non-invasive monitoring
-- ✅ **CPU Time Tracking**: Logs user and system CPU time for each process
-- ✅ **Parent-Child Relationship**: Tracks parent PID for process hierarchy
-- ✅ **Statistics Collection**: Maintains counters for total monitored events
-- ✅ **Kernel Log Integration**: Output viewable via `dmesg`
-- ✅ **Production-Safe**: Proper error handling and cleanup
+- **Real-time Process Monitoring**: Captures process exits as they happen
+- **Zero Kernel Modification**: Uses kprobes for non-invasive monitoring
+- **CPU Time Tracking**: Logs user and system CPU time for each process
+- **Parent-Child Relationship**: Tracks parent PID for process hierarchy
+- **Statistics Collection**: Maintains counters for total monitored events
+- **Kernel Log Integration**: Output viewable via `dmesg`
+- **Production-Safe**: Proper error handling and cleanup
 
 ---
 
@@ -124,7 +124,7 @@ ls /lib/modules/$(uname -r)/build
 
 ---
 
-## 🔧 Installation
+## Installation
 
 ### **Clone the Repository**
 
@@ -295,7 +295,7 @@ PROCESS_MONITOR: ========================================
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ### **1. Module Initialization**
 
